@@ -4,9 +4,9 @@ import Main from './components/Main';
 import AboutMe from './components/AboutMe';
 import Home from './components/Home';
 import Nav from './components/Nav';
-import Projects from './components/Projects'; // Import Projects component
-import Services from './components/Services'; // Import Services component
-import Contact from './components/Contact'; // Import Contact component
+import Projects from './components/projects'; 
+import Services from './components/services'; 
+import Contact from './components/contact'; 
 
 function App() {
   return (
