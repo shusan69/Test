@@ -1,8 +1,10 @@
 import React from 'react';
+import Nav from './Nav';
 
 const AboutMe = () => {
   return (
     <div className="min-h-screen flex flex-col items-center justify-center bg-gray-100">
+        <Nav></Nav>
       <section className="text-center p-8 bg-white shadow-lg rounded-lg">
         <h1 className="text-4xl font-bold text-blue-200 mb-4">About Me</h1>
         <div className="flex flex-col items-center">
