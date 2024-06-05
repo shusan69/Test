@@ -1,8 +1,12 @@
 import React from 'react';
+import Nav from './Nav';
 
 const projects = () =>{
     return(
-        <div>hello</div>
+        <>
+        
+        <Nav></Nav>
+        </>
     );
 }
 

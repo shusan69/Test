@@ -27,7 +27,9 @@ const Nav = () => {
         </div>
         <div className="hidden lg:flex space-x-4">
           <Link to="/" className="hover:bg-gray-200 rounded-full px-5 py-2 text-lg">Home Page</Link>
-          <Link to="/about" className="hover:bg-gray-200 rounded-full px-5 py-2 text-lg">Projects</Link>
+          <Link to="/projects" className="hover:bg-gray-200 rounded-full px-5 py-2 text-lg">Projects</Link>
+                    <Link to="/services" className="hover:bg-gray-200 rounded-full px-5 py-2 text-lg">Services</Link>
+                    <Link to="/contact" className="hover:bg-gray-200 rounded-full px-5 py-2 text-lg">Contact</Link>
           <Link to="/about" className="hover:bg-gray-200 rounded-full px-5 py-2 text-lg">About Me</Link>
         </div>
         <div className="lg:hidden flex items-center">

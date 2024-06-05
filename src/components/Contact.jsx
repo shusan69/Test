@@ -1,9 +1,10 @@
 import React from 'react';
+import Nav from './Nav';
 
 const contact = () =>{
     return(
-        <div>hello</div>
-    )
+        <Nav></Nav>
+    );
 }
 
 export default contact
