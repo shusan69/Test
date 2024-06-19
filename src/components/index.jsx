@@ -4,11 +4,12 @@ import SignUpUser from './SignUpUser';
 
 const index = () => {
   return (
-    <div className="flex justify-center">
-      <div className="w-1/2 mr-4">
+    <div >
+      <div >
         <AddProduct />
       </div>
-      <div className="w-1/2 ml-4">
+      <div > .......</div>
+      <div >
         <SignUpUser />
       </div>
     </div>

@@ -108,7 +108,7 @@ if (data.password !== data.confirmPassword) {
                 message: 'Invalid email address'
               }
             })}
-            className="w-full px-3 py-2 border-b-2 border-gray-300 focus:outline-none focus:border-cyan-700"
+            className="w-full px-3 py-2 border-b-2 border-gray-300  focus:border-cyan-700"
           />
           {errors.email && (
             <p className="text-black-500 text-xs mt-1">{errors.email.message}</p>
@@ -142,7 +142,7 @@ if (data.password !== data.confirmPassword) {
 
                    <button
             type="submit"
-            className="bg-cyan-500 hover:bg-cyan-600 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline"
+            className="bg-green-500 hover:bg-red-600 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline"
           >
             Submit
           </button>
