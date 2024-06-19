@@ -19,7 +19,14 @@ const SignUpUser = () => {
         console.log(data); // console log 
 
         // Prevent default form submission
-  event.preventDefault();
+  preventDefault();
+
+
+//   for password
+if (data.password !== data.confirmPassword) {
+    alert("Passwords do not match!");
+    return;
+  }
     }
 
     
