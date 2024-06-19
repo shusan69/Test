@@ -2,14 +2,13 @@
 // College id: 301284265
 // tailwind css
 import React from 'react';
-import Nav from './Nav';
-import Home from './Home';
+import AddProduct from './AddProduct';
 
 const Main = () => {
   return (
     <>
-      <Nav />
-      <Home />
+      <AddProduct />
+      
     </>
   );
 }
